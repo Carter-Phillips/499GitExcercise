@@ -35,6 +35,10 @@ while True:
     # Triangle - Matthew
     elif shape_type == "T" or shape_type == "t":
         print ("Triangle:\n")
+        print ("     /\\")
+        print ("    /  \\")
+        print ("   /    \\")
+        print ("  /______\\\n")
 
 
     # Invalid

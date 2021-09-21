@@ -30,7 +30,11 @@ while True:
     # Square - Erik
     elif shape_type == "S" or shape_type == "s":
         print ("Square:\n")
-
+        print (' ________')
+        for x in range(5):
+            print ('|        |')
+        print (' ‾‾‾‾‾‾‾‾\n')
+    
 
     # Triangle - Matthew
     elif shape_type == "T" or shape_type == "t":

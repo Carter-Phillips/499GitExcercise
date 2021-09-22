@@ -14,5 +14,9 @@ class UnitTests(unittest.TestCase):
         square = ' ________\n|        |\n|        |\n|        |\n|        |\n|        |\n ‾‾‾‾‾‾‾‾'
         self.assertEqual(GitExcercise.square(), square)
 
+    def test_Line(self):
+        line = '__________________'
+        self.assertEqual(GitExcercise.line(), line)
+
 if __name__ == '__main__':
     unittest.main()

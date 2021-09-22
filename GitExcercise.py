@@ -38,6 +38,9 @@ def triangle():
           /______\\
           """
 
+def line():
+    return '__________________'
+
 def run():
     # Ask for input forever
     while True:
@@ -46,7 +49,7 @@ def run():
 
         # LINE - Carter
         if shape_type == "L" or shape_type == "l":
-            print ("Line:\n")
+            print (f"Line:\n{line()}")
 
 
         # Cross - Rickson
